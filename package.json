@@ -23,8 +23,6 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "react-scroll-parallax": "^3.4.2",
-    "react-spring": "^9.7.3",
-    "react-spring-scroll-to-hook": "^1.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
