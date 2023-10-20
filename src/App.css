@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+li {
+  font-size: 25px;
+}
+
+.brand {
+  font-family: "Bebas Neue", sans-serif !important;
+  font-size: 32px !important;
+}
