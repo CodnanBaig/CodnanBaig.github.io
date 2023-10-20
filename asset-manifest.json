@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AdnanBaig96.github.io/static/css/main.49b98b8a.css",
-    "main.js": "/AdnanBaig96.github.io/static/js/main.bf18b470.js",
+    "main.js": "/AdnanBaig96.github.io/static/js/main.45ffd9c5.js",
     "static/js/787.a2cb61a6.chunk.js": "/AdnanBaig96.github.io/static/js/787.a2cb61a6.chunk.js",
     "static/media/Screenshot 2023-10-19 203908.png": "/AdnanBaig96.github.io/static/media/Screenshot 2023-10-19 203908.d9ed521ff11b235a3015.png",
     "static/media/Screenshot 2023-10-19 203410.png": "/AdnanBaig96.github.io/static/media/Screenshot 2023-10-19 203410.bbada5bd1201cfe1f49c.png",
@@ -10,11 +10,11 @@
     "static/media/Screenshot 2023-10-19 175921.png": "/AdnanBaig96.github.io/static/media/Screenshot 2023-10-19 175921.29efeddb37211d5794aa.png",
     "index.html": "/AdnanBaig96.github.io/index.html",
     "main.49b98b8a.css.map": "/AdnanBaig96.github.io/static/css/main.49b98b8a.css.map",
-    "main.bf18b470.js.map": "/AdnanBaig96.github.io/static/js/main.bf18b470.js.map",
+    "main.45ffd9c5.js.map": "/AdnanBaig96.github.io/static/js/main.45ffd9c5.js.map",
     "787.a2cb61a6.chunk.js.map": "/AdnanBaig96.github.io/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49b98b8a.css",
-    "static/js/main.bf18b470.js"
+    "static/js/main.45ffd9c5.js"
   ]
 }
