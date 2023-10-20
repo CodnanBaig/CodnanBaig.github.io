@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Adnan-Baig-Portfolio/static/css/main.49b98b8a.css",
-    "main.js": "/Adnan-Baig-Portfolio/static/js/main.5a120f5d.js",
-    "static/js/787.a2cb61a6.chunk.js": "/Adnan-Baig-Portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/Screenshot 2023-10-19 203908.png": "/Adnan-Baig-Portfolio/static/media/Screenshot 2023-10-19 203908.d9ed521ff11b235a3015.png",
-    "static/media/Screenshot 2023-10-19 203410.png": "/Adnan-Baig-Portfolio/static/media/Screenshot 2023-10-19 203410.bbada5bd1201cfe1f49c.png",
-    "static/media/Adnan Baig.png": "/Adnan-Baig-Portfolio/static/media/Adnan Baig.1ca5dc0dd91ef1b57a65.png",
-    "static/media/Screenshot 2023-08-16 194313.png": "/Adnan-Baig-Portfolio/static/media/Screenshot 2023-08-16 194313.da6ebe828a9aa9e0cc43.png",
-    "static/media/Screenshot 2023-10-19 175921.png": "/Adnan-Baig-Portfolio/static/media/Screenshot 2023-10-19 175921.29efeddb37211d5794aa.png",
-    "index.html": "/Adnan-Baig-Portfolio/index.html",
-    "main.49b98b8a.css.map": "/Adnan-Baig-Portfolio/static/css/main.49b98b8a.css.map",
-    "main.5a120f5d.js.map": "/Adnan-Baig-Portfolio/static/js/main.5a120f5d.js.map",
-    "787.a2cb61a6.chunk.js.map": "/Adnan-Baig-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/AdnanBaig96.github.io/static/css/main.49b98b8a.css",
+    "main.js": "/AdnanBaig96.github.io/static/js/main.bf18b470.js",
+    "static/js/787.a2cb61a6.chunk.js": "/AdnanBaig96.github.io/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Screenshot 2023-10-19 203908.png": "/AdnanBaig96.github.io/static/media/Screenshot 2023-10-19 203908.d9ed521ff11b235a3015.png",
+    "static/media/Screenshot 2023-10-19 203410.png": "/AdnanBaig96.github.io/static/media/Screenshot 2023-10-19 203410.bbada5bd1201cfe1f49c.png",
+    "static/media/Adnan Baig.png": "/AdnanBaig96.github.io/static/media/Adnan Baig.1ca5dc0dd91ef1b57a65.png",
+    "static/media/Screenshot 2023-08-16 194313.png": "/AdnanBaig96.github.io/static/media/Screenshot 2023-08-16 194313.da6ebe828a9aa9e0cc43.png",
+    "static/media/Screenshot 2023-10-19 175921.png": "/AdnanBaig96.github.io/static/media/Screenshot 2023-10-19 175921.29efeddb37211d5794aa.png",
+    "index.html": "/AdnanBaig96.github.io/index.html",
+    "main.49b98b8a.css.map": "/AdnanBaig96.github.io/static/css/main.49b98b8a.css.map",
+    "main.bf18b470.js.map": "/AdnanBaig96.github.io/static/js/main.bf18b470.js.map",
+    "787.a2cb61a6.chunk.js.map": "/AdnanBaig96.github.io/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49b98b8a.css",
-    "static/js/main.5a120f5d.js"
+    "static/js/main.bf18b470.js"
   ]
 }
