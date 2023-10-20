@@ -78,7 +78,7 @@ export const MyNavbar = () => {
                 {offcanvasOpen ? (
                   <>
                     <Stack>
-                      <Link
+                      <Link 
                         to="home"
                         className="nav-link home"
                         spy={true}

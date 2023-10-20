@@ -117,8 +117,8 @@ export const Contact = () => {
                 </a>
               </div>
               <div className="contact text-center mt-5">
-                <p className="b-text" id="contact-email"><i class="fa-solid fa-envelope"></i>: adnanbaigofficial@gmail.com</p>
-                <p className="b-text" id="contact-phone"><i class="fa-solid fa-phone"></i>: +919004409014</p>
+                <p className="b-text" id="contact-email"><i className="fa-solid fa-envelope"></i>: adnanbaigofficial@gmail.com</p>
+                <p className="b-text" id="contact-phone"><i className="fa-solid fa-phone"></i>: +919004409014</p>
               </div>
             </div>
           </div>

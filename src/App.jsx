@@ -13,8 +13,6 @@ import {
   ParallaxBanner,
   ParallaxBannerLayer,
 } from "react-scroll-parallax";
-// import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { Element } from "react-scroll";
 
 function App() {
   return (
@@ -23,17 +21,17 @@ function App() {
       <ParallaxBanner style={{ height: "100vh" }}>
         <ParallaxBannerLayer
           image="https://images.unsplash.com/photo-1550684376-efcbd6e3f031?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2670"
-          speed={10}
+          speed={30}
         />
       </ParallaxBanner>
-      <Parallax translateY={[-110, -110]} speed={20}>
+      <Parallax translateY={[-105, -150]} speed={20}>
         <Hero />
       </Parallax>
-      <Parallax translateY={[-50, -50]} speed={30}>
+      <Parallax translateY={[-30, -120]} speed={70}>
         <Marqee title={"ABOUT ME"} />
         <About />
       </Parallax>
-      <Parallax translateY={[-70, -70]} speed={50} style={{ height: "100vh", background: "black" }}>
+      <Parallax translateY={[-70, -120]} speed={50} style={{background: "black" }}>
         <Skills />
       </Parallax>
       <Parallax
