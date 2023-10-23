@@ -21,23 +21,23 @@ function App() {
       <ParallaxBanner style={{ height: "100vh" }}>
         <ParallaxBannerLayer
           image="https://images.unsplash.com/photo-1550684376-efcbd6e3f031?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2670"
-          speed={30}
+          speed={20}
         />
       </ParallaxBanner>
       <Parallax translateY={[-105, -150]} speed={20}>
         <Hero />
       </Parallax>
-      <Parallax translateY={[-30, -120]} speed={70}>
+      <Parallax translateY={[-30, -190]} speed={70} style={{background: "white", color: "black", height: "100%"}}>
         <Marqee title={"ABOUT ME"} />
         <About />
       </Parallax>
-      <Parallax translateY={[-70, -120]} speed={50} style={{background: "black" }}>
+      <Parallax translateY={[-50, -150]} speed={80} style={{ height: "100vh"}}>
         <Skills />
       </Parallax>
       <Parallax
-        translateY={[-30, -30]}
-        speed={-50}
-        style={{ height: "100vh", background: "blue !important" }}
+        translateY={[-10, -200]}
+        speed={150}
+        style={{ height: "100%" }}
       >
         <Projects />
       </Parallax>

@@ -34,7 +34,7 @@ export const About = () => {
     downloadPDF();
   };
   return (
-    <section style={{ height: "100vh" }} id="about" className="about section">
+    <section  id="about" className="about section">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-12">

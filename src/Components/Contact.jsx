@@ -121,6 +121,7 @@ export const Contact = () => {
                 <p className="b-text" id="contact-phone"><i className="fa-solid fa-phone"></i>: +919004409014</p>
               </div>
             </div>
+            
           </div>
         </div>
       </div>

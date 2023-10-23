@@ -1,23 +1,20 @@
-import Marquee from "react-fast-marquee";
 import project from "../Screenshot 2023-08-16 194313.png";
 import adventour from "../Screenshot 2023-10-19 175921.png";
 import overstock from "../Screenshot 2023-10-19 203410.png";
 import youtube from "../Screenshot 2023-10-19 203908.png";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { Marqee } from "./Marqee";
 
 export const Projects = () => {
   return (
     <div
       className="mt-5 mb-5"
       id="projects"
-      style={{ height: "100%", overflow: "auto", background: "black" }}
+      style={{ background: "black", height: "100vh" }}
     >
-      <Marquee speed={100} pauseOnHover={true} autoFill={true}>
-        <h1 className="section-heading mx-5">PROJECTS </h1>
-      </Marquee>
-      <hr style={{ border: "0.5px solid white" }} />
+      <Marqee title={"PROJECTS"}/>
       <div className="project-cards">
-        <Parallax pages={3.1}>
+        <Parallax pages={3}>
           <ParallaxLayer offset={0} speed={0} factor={0.5}>
             <div className="cards project-card p-4">
               <div className="row d-flex align-items-center g-5">
@@ -30,7 +27,7 @@ export const Projects = () => {
                     Login to purchasing to checkout with RazorPay.
                   </p>
                   <h2>Tech Stack</h2>
-                  <div className="d-flex gap-2">
+                  <div className="d-flex flex-wrap gap-2">
                     <button className="btn2 project-tech-stack">HTML</button>
                     <button className="btn2 project-tech-stack">CSS</button>
                     <button className="btn2 project-tech-stack">
@@ -53,7 +50,10 @@ export const Projects = () => {
                     >
                       <i className="fa-brands fa-github fa-2xl"></i>
                     </a>
-                    <a href="https://green-paradise-plants.netlify.app/" className="project-deployed-link">
+                    <a
+                      href="https://green-paradise-plants.netlify.app/"
+                      className="project-deployed-link"
+                    >
                       <i className="fa-brands fa-linkedin fa-2xl"></i>
                     </a>
                   </div>
@@ -72,7 +72,7 @@ export const Projects = () => {
                     also takes care of payments through RazorPay.
                   </p>
                   <h2>Tech Stack</h2>
-                  <div className="d-flex gap-2">
+                  <div className="d-flex flex-wrap gap-2">
                     <button className="btn2 project-tech-stack">React</button>
                     <button className="btn2 project-tech-stack">Redux</button>
                     <button className="btn2 project-tech-stack">
@@ -93,7 +93,10 @@ export const Projects = () => {
                     >
                       <i className="fa-brands fa-github fa-2xl"></i>
                     </a>
-                    <a href="https://adventourr-masai.netlify.app/" className="project-deployed-link">
+                    <a
+                      href="https://adventourr-masai.netlify.app/"
+                      className="project-deployed-link"
+                    >
                       <i className="fa-brands fa-linkedin fa-2xl"></i>
                     </a>
                   </div>
@@ -112,7 +115,7 @@ export const Projects = () => {
                     of the data and authentication.
                   </p>
                   <h2>Tech Stack</h2>
-                  <div className="d-flex gap-2">
+                  <div className="d-flex flex-wrap gap-2">
                     <button className="btn2 project-tech-stack">HTML</button>
                     <button className="btn2 project-tech-stack">CSS</button>
                     <button className="btn2 project-tech-stack">
@@ -129,7 +132,10 @@ export const Projects = () => {
                     >
                       <i className="fa-brands fa-github fa-2xl"></i>
                     </a>
-                    <a href="overstock-clone-vanilla.netlify.app" className="project-deployed-link">
+                    <a
+                      href="overstock-clone-vanilla.netlify.app"
+                      className="project-deployed-link"
+                    >
                       <i className="fa-brands fa-linkedin fa-2xl"></i>
                     </a>
                   </div>
@@ -137,7 +143,7 @@ export const Projects = () => {
               </div>
             </div>
           </ParallaxLayer>
-          <ParallaxLayer offset={2} speed={1.5}>
+          <ParallaxLayer offset={2} speed={2} factor={0.5}>
             <div className="cards project-card p-4">
               <div className="row d-flex align-items-center g-5">
                 <div className="col-lg-4 col-md-12">
@@ -150,7 +156,7 @@ export const Projects = () => {
                     search funtionality also works.
                   </p>
                   <h2>Tech Stack</h2>
-                  <div className="d-flex gap-2">
+                  <div className="d-flex flex-wrap gap-2">
                     <button className="btn2 project-tech-stack">HTML</button>
                     <button className="btn2 project-tech-stack">CSS</button>
                     <button className="btn2 project-tech-stack">
@@ -170,7 +176,10 @@ export const Projects = () => {
                     >
                       <i className="fa-brands fa-github fa-2xl"></i>
                     </a>
-                    <a href="https://youtube-clone-basic.netlify.app/" className="project-deployed-link">
+                    <a
+                      href="https://youtube-clone-basic.netlify.app/"
+                      className="project-deployed-link"
+                    >
                       <i className="fa-brands fa-linkedin fa-2xl"></i>
                     </a>
                   </div>
