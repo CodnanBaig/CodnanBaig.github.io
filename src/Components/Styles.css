@@ -1,0 +1,150 @@
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #000000 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.nav-btn {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  border: #ffffff;
+}
+
+input, textarea {
+  border-radius: 0 !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.hero {
+  height: 80vh;
+}
+
+.hero-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 14rem;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.b-text {
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  line-height: 2;
+}
+
+.section-heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 7rem;
+}
+
+.mbrt-slot-hover {
+  transition: transform 0.4s cubic-bezier(0.57, 0, 0.2, 1);
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.mbrt-slot-hover .slot-mask {
+  display: block;
+  overflow: hidden;
+}
+
+.mbrt-slot-hover .slot-content {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.57, 0, 0.2, 1);
+}
+
+.mbrt-slot-hover .slot-content:before {
+  content: attr(hidden-slot-text);
+  position: absolute;
+  top: 120%;
+}
+
+.mbrt-slot-hover:hover .slot-content {
+  transform: translate(0, -120%);
+}
+
+.btn1 {
+  background-color: transparent;
+  border: none;
+  padding-top: 2%;
+  outline: none;
+}
+
+.btn2 {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  background-color: #d62828 !important;
+  border: none;
+  transition: 1s;
+  transform: translateY(-20);
+  cursor: pointer;
+}
+
+.btn2:hover {
+  transition: 0.5s;
+  padding: 10px 30px;
+  transform: translateY(-0px);
+  background-color: "black" !important;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+}
+
+.cards {
+  border: 1px rgb(54, 54, 54) solid !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  background-color: black !important;
+}
+
+@media only screen and (max-width: 770px) {
+  .hero-title {
+    font-size: 6rem;
+  }
+  #form, #about {
+    height: 100% !important;
+  }
+  .section-heading {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+  }
+  li {
+    font-size: 1rem !important;
+  }
+  .skills-li {
+    padding: 0;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .hero {
+    height: auto;
+  }
+}
