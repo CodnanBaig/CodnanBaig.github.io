@@ -54,7 +54,7 @@ export const Projects = () => {
                       <i className="fa-brands fa-github fa-2xl"></i>
                     </a>
                     <a href="https://green-paradise-plants.netlify.app/" className="project-deployed-link">
-                      <i className="fa-brands fa-linkedin fa-2xl"></i>
+                      <i className="fa-solid fa-globe fa-2xl"></i>
                     </a>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ export const Projects = () => {
                       <i className="fa-brands fa-github fa-2xl"></i>
                     </a>
                     <a href="https://adventourr-masai.netlify.app/" className="project-deployed-link">
-                      <i className="fa-brands fa-linkedin fa-2xl"></i>
+                      <i className="fa-solid fa-globe fa-2xl"></i>
                     </a>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export const Projects = () => {
                       <i className="fa-brands fa-github fa-2xl"></i>
                     </a>
                     <a href="overstock-clone-vanilla.netlify.app" className="project-deployed-link">
-                      <i className="fa-brands fa-linkedin fa-2xl"></i>
+                      <i className="fa-solid fa-globe fa-2xl"></i>
                     </a>
                   </div>
                 </div>
@@ -171,7 +171,7 @@ export const Projects = () => {
                       <i className="fa-brands fa-github fa-2xl"></i>
                     </a>
                     <a href="https://youtube-clone-basic.netlify.app/" className="project-deployed-link">
-                      <i className="fa-brands fa-linkedin fa-2xl"></i>
+                      <i className="fa-solid fa-globe fa-2xl"></i>
                     </a>
                   </div>
                 </div>

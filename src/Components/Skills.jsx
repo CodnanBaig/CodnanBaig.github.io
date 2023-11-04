@@ -171,19 +171,6 @@ export const Skills = () => {
                     />
                   </div>
 
-                  <div className="e">
-                    <li className="skills-card-name">EJS</li>
-                    <ProgressBar
-                      completed="70"
-                      bgColor="red"
-                      height="10px"
-                      borderRadius="0"
-                      labelSize="10px"
-                      baseBgColor="white"
-                      animateOnRender
-                    />
-                  </div>
-
                   <div className="java">
                     <li className="skills-card-name">Java</li>
                     <ProgressBar
@@ -311,19 +298,6 @@ export const Skills = () => {
 
                   <div>
                     <li className="skills-card-name">Linux</li>
-                    <ProgressBar
-                      completed="70"
-                      bgColor="red"
-                      height="10px"
-                      borderRadius="0"
-                      labelSize="10px"
-                      baseBgColor="white"
-                      animateOnRender
-                    />
-                  </div>
-
-                  <div>
-                    <li className="skills-card-name">Server Management</li>
                     <ProgressBar
                       completed="70"
                       bgColor="red"
